@@ -2,7 +2,7 @@
 
 Image Classification using Siamese Network
 
-The goal is to identify and classify images of potato plant leaves. There are 3 categories of leaves: Healty potato plant leaves, potato leaves with early blight and potato leaves with late blight. 
+The goal is to identify and classify images of potato plant leaves. There are 3 categories of leaves: Healthy potato plant leaves, potato leaves with early blight and potato leaves with late blight. 
 
 Considering that the dataset of images is relatively small (50 images for each class), a classic deep neural network would not perform very well. Instead, the idea is to build a model that only predicts if both samples from a pair of images are from the same class or not. For that task we used the siamese network model.
 
